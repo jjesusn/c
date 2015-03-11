@@ -3,22 +3,18 @@ Programa: Operadores
 Utilidad: Lee dos numeros y realiza operaciones 
 Programador: Jesus Navarro
 Fecha: 4 de Marzo del 2015
-Version: 1.0
+Version: 1.1
 Changelog:
+-Se ahorran 4 lineas de codigo
 */
 
-//Librias
+//Librerias
 #include <stdio.h>
 //Funcion
 main(){
 //Declaracion de variables
-	int numero1;
-	int numero2;
-	int suma;
-	float resta;
-	float multiplicacion;
-	float division;
-	float resto;
+	int numero1,numero2,suma;
+	float resta,multiplicacion,division,resto;
 //Obtencion de datos	
 	printf("Bienvenidos a mi programa \n");
 	printf("Por favor introduce un numero: ");
